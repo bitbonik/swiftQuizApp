@@ -12,6 +12,8 @@
 		216A224F24A88C15007D5722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216A224D24A88C15007D5722 /* Main.storyboard */; };
 		216A225124A88C16007D5722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216A225024A88C16007D5722 /* Assets.xcassets */; };
 		216A225424A88C16007D5722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 216A225224A88C16007D5722 /* LaunchScreen.storyboard */; };
+		216A225C24A88C52007D5722 /* Quiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A225B24A88C52007D5722 /* Quiz.swift */; };
+		216A225E24A8955C007D5722 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216A225D24A8955C007D5722 /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		216A225024A88C16007D5722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		216A225324A88C16007D5722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		216A225524A88C16007D5722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		216A225B24A88C52007D5722 /* Quiz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz.swift; sourceTree = "<group>"; };
+		216A225D24A8955C007D5722 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				216A225024A88C16007D5722 /* Assets.xcassets */,
 				216A225224A88C16007D5722 /* LaunchScreen.storyboard */,
 				216A225524A88C16007D5722 /* Info.plist */,
+				216A225B24A88C52007D5722 /* Quiz.swift */,
+				216A225D24A8955C007D5722 /* Game.swift */,
 			);
 			path = QuizApp;
 			sourceTree = "<group>";
@@ -137,6 +143,8 @@
 			files = (
 				216A224C24A88C15007D5722 /* ViewController.swift in Sources */,
 				216A224A24A88C15007D5722 /* AppDelegate.swift in Sources */,
+				216A225C24A88C52007D5722 /* Quiz.swift in Sources */,
+				216A225E24A8955C007D5722 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
