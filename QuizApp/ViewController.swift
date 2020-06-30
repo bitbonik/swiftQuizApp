@@ -127,7 +127,7 @@ class ViewController: UIViewController {
     
     
     
-    
+    //udpate ui
     func updateUIWithContent(){
         questionLabel.text = currentQuiz.question
         var temp = 0
